@@ -1,0 +1,57 @@
+/*
+
+  CSS FOR SMALL SCREENS
+  =====================
+*/
+
+@media only screen and (max-width: 800px) {
+
+  html{
+
+  }
+  
+  body{
+    font-size:14px;
+    padding-bottom: 4em;
+  }
+ 
+  #markdown-container{
+    margin:0;
+    padding:0;
+  }
+
+  h1{
+   
+  }
+
+  h2{
+ 
+  }
+
+  ul{
+
+  }
+
+  ul li{
+
+  }
+
+  blockquote{}
+
+  blockquote p{
+
+  }
+
+  hr{
+
+  }
+
+  .flex-grid {
+    display: block;
+  }
+
+  #markdown-container img{
+    padding:0;
+  }
+
+}

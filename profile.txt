@@ -1,0 +1,150 @@
+Markdown Resumé
+===============
+
+email@domaincom
+[@twitter_handle](http://twitter.com/name)
+1800 my-phone-nr
+
+Interests
+---------
+
+*   Creating beautiful resumés from simple Markdown documents
+
+
+Work Experience
+---------------
+
+*   **Word Processor** (Redmond, WA)
+
+    *Junior Resumé Maker*, 2006 - 2007
+
+    -   Intermingled presentation and content
+    -   Styling was a pain, so either didn't do it or found a half-decent
+        template and didn't mess with it
+
+*   **pdflatex**
+
+    *Senior Resumé Maker*, 2008 - 2010
+
+    -   Edited verbose \LaTeX\ documents in a text editor
+    -   Mixed content and presentation to achieve pixel-perfection
+    -   Installed and configured the unusual TeX setups required by the
+        best-looking \LaTeX\ resumés
+
+*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
+
+    *Web Resumé Intern*, August 2010
+
+    -   Entered data, adapting to different data models and formatting
+        limitations
+    -   Attempted to customize PDF exports and remove default resumé elements,
+        to no avail
+
+*   **Markdown with Pandoc**
+
+    *Resumé Architect*, February 2011 - present
+
+    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
+        DOCX, and more)
+    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
+    -   Use a simple pre-processor to define per-format operations on the
+        Markdown input or its parts, such as moving contact information to the
+        top right of the page in both HTML and PDF output.
+    -   Use a text-based resumé when needed in a pinch
+    -   Use version control, including free hosting on Github
+
+
+Education
+---------
+
+*   **Github University** (World Wide Web)
+
+    *B.S. in Submodules*, May 2012
+
+
+Skills
+------
+
+*   Very experienced with Python, Markdown, \LaTeX
+
+*   Familiar with GNU Make, bash
+# Citation
+
+> The secret to creativity is knowing how to hide your sources.    
+>
+> — <cite>[Albert Einstein][1]</cite>
+
+[1]:http://www.quotedb.com/quotes/2112
+
+
+
+# inline link
+
+this is my site <https://google.com>
+
+> this quote
+>> and this one  
+
+> then this
+
+
+| Oktober | November | December | 
+|:--------|:---------|:---------| 
+| 100     | 350      | 400      |
+| 343     | 43434    | 344      |
+| 143     | 431      | 324      |
+
+
+
+
+# Footnotes
+
+Here is some text containing a footnote[^somesamplefootnote]. You can then continue your thought...
+
+[^somesamplefootnote]: Here is the text of the footnote itself.
+
+Even go to a new paragraph and the footnotes with go to the bottom of the document[^documentdetails].
+
+[^documentdetails]: Depending on the final form of your document, of course. See the documentation and experiment.
+
+    This footnote has a second paragraph.   
+
+Here is some text containing a footnote[1]. You can then continue your thought…
+
+Even go to a new paragraph and the footnotes with go to the bottom of the document[2].
+
+    Here is the text of the footnote itself.  ↩
+
+    Depending on the final form of your document, of course. See the documentation and experiment. ↩
+
+    This footnote has a second paragraph.
+
+This is an example of an inline footnote.[^This is the *actual* footnote.]
+
+# DEFINITION LISTS
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in 
+    the family Rosaceae.
+
+    Also the makers of really great products.    
+
+&nbsp;
+
+Banana
+:   1. A delicious fruit that can be hazardous
+    if left on the ground.
+
+    2. A fruit that comes with it's own packaging
+
+
+```
+This is a fenced
+code block
+```
+
+
+"As the world goes multi-platform with all of the new mobile operating
+systems, MultiMarkdown provides an easy way to share formatting between all of
+my devices. It's easy to learn (even for us mortals) and immediately useful."
+> --- David Sparks, [MacSparky.com](http://MacSparky.com/)

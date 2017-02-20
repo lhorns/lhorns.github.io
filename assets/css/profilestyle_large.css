@@ -1,0 +1,54 @@
+/*
+
+    CSS FOR LARGE SCREENS
+    =====================
+ */
+
+@media only screen and (min-width: 801px){
+ 
+    body{
+        font-size:18px;
+    }
+
+    h1{
+
+    }
+
+    h2{
+ 
+    }
+
+    h3{
+
+    }
+
+    h4{
+     
+    }
+
+    p{
+
+    }
+
+    ul {
+
+    }
+
+    ul li{
+        list-style-type:disc;
+    }
+
+    hr{
+        height:3em;
+    }
+
+    blockquote{
+      
+
+    }
+
+    blockquote p{
+
+    }
+
+}
